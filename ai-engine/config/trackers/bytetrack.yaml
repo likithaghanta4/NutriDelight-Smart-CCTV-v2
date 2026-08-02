@@ -1,0 +1,8 @@
+# ByteTrack tuned for short occlusions and stable retail visitor counting.
+tracker_type: bytetrack
+track_high_thresh: 0.3
+track_low_thresh: 0.1
+new_track_thresh: 0.3
+track_buffer: 120
+match_thresh: 0.8
+fuse_score: True
