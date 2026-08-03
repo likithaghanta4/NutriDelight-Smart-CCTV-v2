@@ -1,8 +1,10 @@
 const API_BASE_URL = (
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000"
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://nutridelight-backend.onrender.com"
 ).replace(/\/$/, "");
 const AI_STREAM_BASE_URL = (
-  import.meta.env.VITE_AI_STREAM_BASE_URL || "http://127.0.0.1:5001"
+  import.meta.env.VITE_AI_STREAM_BASE_URL ||
+  "https://nutridelight-backend.onrender.com"
 ).replace(/\/$/, "");
 
 export const apiEndpoints = {
