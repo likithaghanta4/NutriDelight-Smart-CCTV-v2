@@ -4,7 +4,7 @@ const API_BASE_URL = (
 ).replace(/\/$/, "");
 const AI_STREAM_BASE_URL = (
   import.meta.env.VITE_AI_STREAM_BASE_URL ||
-  "https://rebel-providers-defined-legislature.trycloudflare.com/video-feed"
+  "https://rebel-providers-defined-legislature.trycloudflare.com"
 ).replace(/\/$/, "");
 
 export const apiEndpoints = {
